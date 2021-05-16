@@ -1,0 +1,12 @@
+p{
+    border:15px solid transparent;
+    padding: 20px;
+    border-image: url("https://top13.net/wp-content/uploads/2014/11/1-small-flowers.jpg");
+    border-image-slice: 10;
+    border-image-outset: 2px;
+    border-image-width: 10px;
+    border-image-repeat: stretch;
+    text-align: center;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
