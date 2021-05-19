@@ -1,0 +1,50 @@
+.box1{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+    transition-property: width;
+    transition: width 2s;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.box1:hover{
+    width: 300px;
+}
+.box2{
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    transition-property: width;
+    transition: width 2s;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.box2:hover{
+    width: 300px;
+}
+.box3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    transition-property: width;
+    transition: width 2s;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.box3:hover{
+    width: 300px;
+}
+.box4{
+    background-color:lightblue;
+    height: 100px;
+    width: 100px;
+    transition: width 2s,height 2s,transform 2s;
+}
+.box4:hover{
+    transform: rotate(360deg);
+    height:200px;
+    width: 200px;
+}
