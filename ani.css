@@ -1,0 +1,15 @@
+.box1{
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    animation-name: boxi;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes boxi{
+    0% {background-color:red;left:0px;top:0px;}
+    100% {background-color: yellow;left:200px;top:0px;}
+}
